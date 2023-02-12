@@ -1,57 +1,57 @@
 package com.example.gamevictorinesecond
 
 class QuizBank {
-    private fun kievQuestions(): List<QuizList>? {
+    private fun footballQustions(): List<QuizList>? {
         val questionsList: MutableList<QuizList> = ArrayList()
         val question1 = QuizList(
-            "В какой стране находится Киев?",
-            "В Казахстане.", "В Украине.", "В Великобритании.", "В Канаде.",
-            "В Украине.", ""
+            "Who is the all-time leading scorer in the English Premier League?",
+            "Alan Shearer", "Thierry Henry", "Wayne Rooney", "Frank Lampard",
+            "Alan Shearer", ""
         )
         val question2 = QuizList(
-            "На какой реке расположен Киев?",
-            "Днепр.", "Днестр.", "Днеев.", "Амазонка.",
-            "Днепр.", ""
+            "Who won the most recent World Cup in Soccer?",
+            "Spain", "Germany", "France", "Brazil",
+            "France", ""
         )
         val question3 = QuizList(
-            "Какая футбольная команда есть в Киеве?",
-            "Спартак.", "Манчестер.", "Бавария.", "Динамо.",
-            "Динамо.", ""
+            "Who has won the most Ballon d'Or awards (best player in the world)?",
+            "Lionel Messi", "Cristiano Ronaldo", "Michel Platini", "Johan Cruyff",
+            "Lionel Messi", ""
         )
         val question4 = QuizList(
-            "Какие ворота есть в Киеве?",
-            "Бронзовые.", "Серебряные.", "Золотые.", "Пластмассовые.",
-            "Золотые.", ""
+            "What team has won the most Champions League/European Cup titles?",
+            "Real Madrid", "Bayern Munich", "AC Milan", "Liverpool",
+            "Real Madrid", ""
         )
         val question5 = QuizList(
-            "Какой спортсмен был мэром Киева?",
-            "Хоккеист.", "Бабслеист.", "Боксёр.", "Конькобежец.",
-            "Боксёр.", ""
+            "Who is the all-time leading scorer for the Argentine National Team?",
+            "Diego Maradona", "Lionel Messi", "Gabriel Batistuta", "Alfredo Di Stefano",
+            "Lionel Messi", ""
         )
         val question6 = QuizList(
-            "Каких деревьев много в Киеве?",
-            "Каштанов.", "Тополей.", "Пальм.", "Берёз.",
-            "Каштанов.", ""
+            "What team won the first FIFA Club World Cup in 2000?",
+            "Corinthians", "Real Madrid", "Manchester United", "Bayern Munich",
+            "Corinthians", ""
         )
         val question7 = QuizList(
-            "Сколько районов находится на левом берегу Днепра?",
-            "Один.", "Два.", "Три.", "Четыре.",
-            "Три.", ""
+            "Who is the only player to have won the World Cup as both a player and coach?",
+            "Zinedine Zidane", "Franz Beckenbauer", " Diego Maradona", "Michel Platini",
+            "Franz Beckenbauer", ""
         )
         val question8 = QuizList(
-            "Какого памятника архитектуры нет в Киеве?",
-            "Церковь Спаса-на-Берестове.", "Дом с химерами.", "Старая биржа.", "Пальма Мерцалова.",
-            "Старая биржа.", ""
+            "Who has won the most Golden Foot awards for the best goal scorer in a European season?",
+            "Lionel Messi", "Cristiano Ronaldo", "Luis Suarez", "Robert Lewandowski",
+            "Cristiano Ronaldo", ""
         )
         val question9 = QuizList(
-            "В каком году основан Киев?",
-            "В 482 году.", "В 283 до Р.Х.", "В 1256 году.", "В 988 году.",
-            "В 482 году.", ""
+            "Who is the only player to have won the Ballon d'Or award 5 times in a row?",
+            "Lionel Messi", "Cristiano Ronaldo", "Zinedine Zidane", "Michel Platini",
+            "Lionel Messi", ""
         )
         val question10 = QuizList(
-            "На какой широте находится Киев?",
-            "23 ю.ш.", "75 с.в.", "33 ю.д.", "50 с.ш.",
-            "50 с.ш.", ""
+            "Which team has won the most World Cup titles in Soccer?",
+            "Brazil", "Germany", "Italy", "Argentina",
+            "Brazil", ""
         )
         questionsList.add(question1)
         questionsList.add(question2)
@@ -66,57 +66,57 @@ class QuizBank {
         return questionsList
     }
 
-    private fun ukraineQuestions(): List<QuizList>? {
+    private fun basketballQuestions(): List<QuizList>? {
         val questionsList: MutableList<QuizList> = ArrayList()
         val question1 = QuizList(
-            "На каком континенте находится Украина?",
-            "Северной Америке.", "Евразии.", "Европе.", "Африке.",
-            "Евразии.", ""
+            "Who is the all-time leading scorer in NBA history?",
+            "Kareem Abdul-Jabbar", "LeBron James", "Michael Jordan", "Wilt Chamberlain",
+            "Kareem Abdul-Jabbar", ""
         )
         val question2 = QuizList(
-            "Легендарные украинские воины?",
-            "Викинги.", "Казаки.", "Асасины.", "Ниндзи.",
-            "Казаки.", ""
+            "What team has won the most NBA championships?",
+            "Boston Celtics", "Los Angeles Lakers", "Chicago Bulls", "San Antonio Spurs",
+            "Boston Celtics", ""
         )
         val question3 = QuizList(
-            "Что любят есть украинцы?",
-            "Сало.", "Фуагру.", "Пиццу.", "Хот-Доги.",
-            "Сало.", ""
+            "Who is widely considered the greatest basketball player of all time?",
+            "Michael Jordan", "Magic Johnson", "Kobe Bryant", "LeBron James",
+            "Michael Jordan", ""
         )
         val question4 = QuizList(
-            "Какой области нет в Украине?",
-            "Днепропетровской.", "Киевской.", "Хмельницкой.", "Луцкой.",
-            "Луцкой.", ""
+            "Who is the all-time leading scorer for the US Men's Olympic Basketball Team?",
+            "Carmelo Anthony", "Michael Jordan", "LeBron James", "Kobe Bryant",
+            "Carmelo Anthony", ""
         )
         val question5 = QuizList(
-            "Столица Украины?",
-            "Львов.", "Киев.", "Харьков.", "Винница.",
-            "Киев.", ""
+            "What is the name of the award given to the top player in college basketball each year?",
+            "Naismith Trophy", "Wooden Award", "Rupp Trophy", "Robertson Trophy",
+            "Naismith Trophy", ""
         )
         val question6 = QuizList(
-            "Какое море есть в Украине?",
-            "Чёрное.", "Красное.", "Белое.", "Жёлто-голубое.",
-            "Чёрное.", ""
+            "Who has won the most NBA MVP awards?",
+            "Kareem Abdul-Jabbar", "LeBron James", "Michael Jordan", "Bill Russell",
+            "Kareem Abdul-Jabbar", ""
         )
         val question7 = QuizList(
-            "День независимости в Украине отмечают?",
-            "29 февраля.", "28 мая.", "24 августа.", "1 апреля.",
-            "24 августа.", ""
+            "What team holds the record for the most regular season wins in a single season?",
+            "Chicago Bulls", "Golden State Warriors", "Los Angeles Lakers", "Miami Heat",
+            "Chicago Bulls", ""
         )
         val question8 = QuizList(
-            "Кто изображён на купюре 10 гривен?",
-            "Иван Мазепа.", "Ксена.", "Владимир Великий.", "Ярослав Мудрый.",
-            "Иван Мазепа.", ""
+            "Who is the all-time leading scorer for the women's Olympic Basketball Team?",
+            "Diana Taurasi", "Tamika Catchings", "Lisa Leslie", "Cheryl Miller",
+            "Diana Taurasi", ""
         )
         val question9 = QuizList(
-            "Протяжённость береговой линии Украины",
-            "2835 км.", "8235 км.", "2853 км.", "2385 км.",
-            "2835 км.", ""
+            "Who was the first overall pick in the 1996 NBA draft?",
+            "Kobe Bryant", "Allen Iverson", "Steve Nash", "Ray Allen",
+            "Allen Iverson", ""
         )
         val question10 = QuizList(
-            "Самая высокая гора в Украине?",
-            "Гуцул-гора.", "Петрос.", "Говерла.", "Джамалунгма.",
-            "Говерла.", ""
+            "What is the name of the award given to the top defensive player in the NBA each year?",
+            "All-Defensive Team", "DPOY Award", "Defense Trophy", "All-Defense Honors",
+            "DPOY Award", ""
         )
         questionsList.add(question1)
         questionsList.add(question2)
@@ -131,57 +131,57 @@ class QuizBank {
         return questionsList
     }
 
-    private fun donetskQuestions(): List<QuizList>? {
+    private fun tennisQuestions(): List<QuizList>? {
         val questionsList: MutableList<QuizList> = ArrayList()
         val question1 = QuizList(
-            "В какой стране находится Донецк?",
-            "Лилипутии.", "Румынии.", "США.", "Украине.",
-            "Украине.", ""
+            "Who has won the most Grand Slam singles titles in tennis history?",
+            "Serena Williams", "Margaret Court", "Steffi Graf", "Monica Seles",
+            "Margaret Court", ""
         )
         val question2 = QuizList(
-            "Как раньше назывался Донецк?",
-            "Сталино.", "Ленино.", "Ворошилово.", "Гродно.",
-            "Сталино.", ""
+            "What is the name of the Grand Slam tournament played on clay courts?",
+            "Wimbledon", "US Open", "Australian Open", "Roland Garros",
+            "Roland Garros", ""
         )
         val question3 = QuizList(
-            "Главная футбольная команда в городе Донецк это?",
-            "Кальмиус.", "Проходчик.", "Шахтёр.", "Моряк.",
-            "Шахтёр.", ""
+            "Who is widely considered the greatest male tennis player of all time?",
+            "Rafael Nadal", "Novak Djokovic", "Roger Federer", "Pete Sampras",
+            "Roger Federer", ""
         )
         val question4 = QuizList(
-            "Главная улица в городе Донецк?",
-            "Ахметова.", "Сергея.", "Андрея.", "Артёма.",
-            "Артёма.", ""
+            "Who holds the record for the most consecutive Grand Slam singles titles won in the Open Era?",
+            "Steffi Graf", " Monica Seles", "Margaret Court", "Martina Navratilova",
+            "Steffi Graf", ""
         )
         val question5 = QuizList(
-            "Основатель города Донецк?",
-            "Джон Юз.", "Джонни Дэп.", "Бэлл Окленд.", "Артём Статский.",
-            "Джон Юз.", ""
+            "What is the name of the award given to the best tennis player of the year in the ATP Tour?",
+            "Tour Champion", "World No. 1", "ATP Finals Champion", "ATP World Tour Finals",
+            "ATP Finals Champion", ""
         )
         val question6 = QuizList(
-            "Какая река есть в Донецке?",
-            "Дунай.", "Кальмиус.", "Днестр.", "Волга.",
-            "Кальмиус.", ""
+            "Who is the current world No. 1 in women's singles tennis?",
+            "Naomi Osaka", "Simona Halep", "Ashleigh Barty", "Petra Kvitova",
+            "Simona Halep", ""
         )
         val question7 = QuizList(
-            "Как называется цырк в городе Донецк?",
-            "Небесный.", "Облако.", "Звериный.", "Космос.",
-            "Космос.", ""
+            "What is the name of the Grand Slam tournament played on grass courts?",
+            "Roland Garros", "Australian Open", "Wimbledon", "US Open",
+            "Wimbledon", ""
         )
         val question8 = QuizList(
-            "В 'Донецке растёт \"одна пальма\". Её название \"...\" Мерцалова?",
-            "Пальма Мерцалова.", "Пальма Охотского.", "Пальма Булаха.", "Пальма воздвижения.",
-            "Пальма Мерцалова.", ""
+            "Who has won the most Grand Slam doubles titles in tennis history?",
+            "Martina Navratilova", "Billie Jean King", "Margaret Court", "Serena Williams",
+            "Martina Navratilova", ""
         )
         val question9 = QuizList(
-            "Какие курганы спят в Донецкой области?",
-            "Высокие.", "Тёмные.", "Каменные.", "Угольные.",
-            "Тёмные.", ""
+            "Who is the current world No. 1 in men's singles tennis?",
+            "Rafael Nadal", "Novak Djokovic", "Roger Federer", "Stefanos Tsitsipas",
+            "Novak Djokovic", ""
         )
         val question10 = QuizList(
-            "Везде горы, а в Донецке?",
-            "Терриконы.", "Овраги.", "Вулканы.", "Скалы.",
-            "Терриконы.", ""
+            "What is the name of the award given to the best tennis player of the year in the WTA Tour?",
+            "Tour Champion", "World No. 1", "WTA Finals Champion", "WTA Championships",
+            "WTA Finals Champion", ""
         )
         questionsList.add(question1)
         questionsList.add(question2)
@@ -196,57 +196,57 @@ class QuizBank {
         return questionsList
     }
 
-    private fun ugledarQuestions(): List<QuizList>? {
+    private fun volleyballQuestions(): List<QuizList>? {
         val questionsList: MutableList<QuizList> = ArrayList()
         val question1 = QuizList(
-            "На какой планете находится Угледар?",
-            "Земля.", "Марс.", "Юпирер.", "Венера.",
-            "Земля.", ""
+            "Who is the most decorated player in Olympic volleyball history?",
+            "Karch Kiraly", "Gabrielle Reece", "Kerri Walsh Jennings", "Misty May-Treanor",
+            "Karch Kiraly", ""
         )
         val question2 = QuizList(
-            "Какой школы никогда не было в Угледаре?",
-            "Первой.", "Сто двенадцатой.", "Четвёртой.", "Второй.",
-            "Четвёртой.", ""
+            "What is the name of the award given to the best male volleyball player in the world?",
+            "FIVB World Player of the Year", "MVP Award", "Olympic Champion", "World Champion",
+            "FIVB World Player of the Year", ""
         )
         val question3 = QuizList(
-            "Сколько шахт в Угледаре?",
-            "Одна.", "Две.", "Три.", "Четыре.",
-            "Две.", ""
+            "Who is the current world No. 1 in women's beach volleyball?",
+            "Barbora Hermannova & Marketa Slukova", "Alix Klineman & April Ross", "Laura Ludwig & Maggie Kozuch", "Sarah Pavan & Melissa Humana-Paredes",
+            "Sarah Pavan & Melissa Humana-Paredes", ""
         )
         val question4 = QuizList(
-            "Какой улицы нет в Угледаре?",
-            "13 десантников.", "30 Лет победы.", "48 Шахтёров.", "Мира.",
-            "48 Шахтёров.", ""
+            "What is the name of the governing body for international volleyball?",
+            "World Volleyball Association", "International Volleyball Federation (FIVB)", "Volleyball World Cup", "Volleyball Olympics",
+            "International Volleyball Federation (FIVB)", ""
         )
         val question5 = QuizList(
-            "В каком году основан город Угледар?",
-            "988 году.", "2000 году.", "1946 году.", "1964 году.",
-            "1964 году.", ""
+            "What is the name of the professional men's volleyball league in the United States?",
+            "Major League Volleyball (MLV)", "United Volleyball League (UVL)", "National Volleyball League (NVL)", "USA Volleyball (USAV)",
+            "USA Volleyball (USAV)", ""
         )
         val question6 = QuizList(
-            "Какого магазина никогда не было в Угледаре?",
-            "Стекляшки", "Неваляшки.", "Цыганского.", "Людмилы.",
-            "Неваляшки.", ""
+            "Who is the all-time leading scorer in Olympic volleyball history?",
+            "Karch Kiraly", "Gabrielle Reece", "Kerri Walsh Jennings", "Regla Torres",
+            "Karch Kiraly", ""
         )
         val question7 = QuizList(
-            "Какой посёлок есть в Угледаре?",
-            "Новый посёлок.", "Старый посёлок.", "Западный посёлок.", "Восточный посёлок.",
-            "Старый посёлок.", ""
+            "What is the name of the award given to the best female volleyball player in the world?",
+            "FIVB World Player of the Year", "MVP Award", "Olympic Champion", "World Champion",
+            "FIVB World Player of the Year", ""
         )
         val question8 = QuizList(
-            "В Угледаре есть?",
-            "Профилакторий.", "Вич диспансер.", "Психиатрическая лечебница.", "Роддом.",
-            "Профилакторий.", ""
+            "What is the name of the Grand Slam tournament in beach volleyball?",
+            "World Tour", "World Championships", "World Series", "World Cup",
+            "World Tour", ""
         )
         val question9 = QuizList(
-            "Летом жители Угледара отдыхают?",
-            "На Канарах.", "На Никольском ставке.", "На Никольских островах.", "На диване.",
-            "На Никольском ставке.", ""
+            "Who holds the record for the most Olympic gold medals in volleyball history?",
+            "Karch Kiraly", "Gabrielle Reece", "Kerri Walsh Jennings", "Regla Torres",
+            "Karch Kiraly", ""
         )
         val question10 = QuizList(
-            "Самая высокая гора в Угледаре?",
-            "Годзила гора.", "Чебурашка гора.", "Кинг-Конг гора.", "Уголь гора.",
-            "Кинг-Конг гора.", ""
+            "What is the name of the professional women's volleyball league in the United States?",
+            "Major League Volleyball (MLV)", "United Volleyball League (UVL)", "National Volleyball League (NVL)", "American Volleyball Coaches Association (AVCA)",
+            "American Volleyball Coaches Association (AVCA)", ""
         )
         questionsList.add(question1)
         questionsList.add(question2)
@@ -263,10 +263,10 @@ class QuizBank {
 
     fun qetQuestions(selectedTopicName: String?): List<QuizList>? {
         return when (selectedTopicName) {
-            "volleyball" -> kievQuestions()
-            "football" -> ukraineQuestions()
-            "basketball" -> donetskQuestions()
-            else -> ugledarQuestions()
+            "football" -> footballQustions()
+            "basketball" -> basketballQuestions()
+            "tennis" -> tennisQuestions()
+            else -> volleyballQuestions()
         }
     }
 }

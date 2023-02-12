@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.gamevictorinesecond.databinding.ActivityQuizResultBinding
 
+
+@Suppress("DEPRECATION")
 class QuizResult : AppCompatActivity() {
 
     private lateinit var binding: ActivityQuizResultBinding
